@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
   // We use the BehaviorTreeFactory to register our custom nodes
   BehaviorTreeFactory factory;
 
-  factory.registerNodeType<MoveRail>("Pick");
+  factory.registerNodeType<Pick>("Pick");
 
 
 
